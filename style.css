@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+ background-color: rgb(126, 248, 119);
+}
+
+body {
+  background-image: linear-gradient(to right, green, blue);
+}
+
+input {
+  background-color: white;
+}
+
+.search-container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: 30px auto;
+}
+.search-container input,
+.search-container .suggestions {
+  box-sizing: border-box;
+  border: 3px solid hsla(188, 89%, 48%, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px 25px;
+  margin: 0px 0;
+}
+.search-container input {
+  border-color: black
+}
+.search-container .suggestions {
+  border-color: none;
+}
+
+ul {
+  text-align: center;
+}
+ul li {
+  color: black;
+  padding: 15px 25px;
+  margin: 0px 0;
+}
+ul li:hover {
+  color: white;
+  background-color: rgb(45, 175, 110);
+}
+
+input {
+  font-size: 35px;
+}
